@@ -1,0 +1,29 @@
+.rafflesDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+    text-align: left;
+}
+
+.singleRaffleDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    padding: 20px;
+    height: min-content;
+    border: solid lightgrey 1px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.singleRaffleDetail:hover {
+    cursor: pointer;
+    transition: transform .5s ease;
+    transform: scale(1.01);
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}

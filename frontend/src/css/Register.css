@@ -1,0 +1,32 @@
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerDetails{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50vw;
+    padding: 50px;
+    color: black;
+    border: solid lightgrey 1px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.registerUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+}
+
+.registerName {
+    display: flex;
+    flex-direction: row;
+}
